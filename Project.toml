@@ -1,6 +1,6 @@
 name = "polymake_oscarnumber_jll"
 uuid = "10f31823-b687-53e6-9f29-edb9d4da9f9f"
-version = "0.1.1+0"
+version = "0.1.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -14,5 +14,5 @@ LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "~1.8"
+julia = "~1.8, ~1.9, ~1.10"
 polymake_jll = "~400.900.000"

@@ -12,7 +12,7 @@ function __init__()
     JLLWrappers.@init_library_product(
         libpolymake_oscarnumber,
         "lib/polymake/lib/libpolymake_oscarnumber.so",
-        nothing,
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
